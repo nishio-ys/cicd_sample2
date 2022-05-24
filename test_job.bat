@@ -6,4 +6,4 @@ docker-compose up -d
 
 docker-compose ps
 
-docker exec -it docker_mysql_db_1 bash
+winpty docker exec -it docker_mysql_db_1 bash
