@@ -8,4 +8,4 @@ docker-compose up -d
 
 docker-compose ps
 
-winpty docker exec -it docker_mysql_db_1 bash
+docker exec docker_mysql_db_1 bash -c "cd /var && ls -al"
